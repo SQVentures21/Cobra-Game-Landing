@@ -302,7 +302,8 @@ label {
   top: 116px;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
-  z-index: 3;
+  z-index: 9999;
+  -webkit-transform: translate3d(0, 0, 0);
 }
 
 .modal-1 p {
