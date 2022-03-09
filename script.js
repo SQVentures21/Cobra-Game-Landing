@@ -27,7 +27,7 @@ function createSlots(ring) {
 
     val = (i % 12) + 1;
     spin(0);
-    source = "./img1/image" + String(val) + ".png";
+    source = "./img2/image" + String(val) + ".webp";
     // <img src="img_girl.jpg" >
 
     var content = $(slot).append('<img src="' + source + '" class = "images">');
