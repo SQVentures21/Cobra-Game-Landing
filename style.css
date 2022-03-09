@@ -327,7 +327,7 @@ label {
   color: #d18e2c;
   font-size: 2rem;
   position: absolute;
-  top: 852px;
+  top: 750px;
   left: 719px;
   font-family: "Roboto";
   font-weight: 700;
@@ -338,7 +338,7 @@ label {
   color: #d18e2c;
   font-size: 2rem;
   position: absolute;
-  top: 852px;
+  top: 750px;
   left: 66px;
   font-family: "Roboto";
   font-weight: 700;
@@ -513,7 +513,7 @@ video {
     font-size: 1.5rem;
     position: absolute;
     top: 759px;
-    left: 705px;
+    left: 805px;
     font-family: "Roboto";
     font-weight: 700;
     z-index: 8;
@@ -523,7 +523,7 @@ video {
     color: #d18e2c;
     font-size: 1.5rem;
     position: absolute;
-    top: 759px;
+    top: 859px;
     left: 122px;
     font-family: "Roboto";
     font-weight: 700;
