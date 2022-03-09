@@ -35,6 +35,7 @@ body {
   justify-content: center;
   background: 10px 175px url("./img1//Slots-background\ \(3\).png") no-repeat;
   background-size: cover;
+  -webkit-transform: translate3d(0, 0, 0);
 }
 
 .container {
@@ -51,6 +52,7 @@ body {
   width: 1086px;
   z-index: 3 !important;
   max-width: 100vw;
+  -webkit-transform: translate3d(0, 0, 0);
 }
 .ring {
   position: relative;
@@ -63,6 +65,7 @@ body {
   margin-right: 10px;
   transform-style: preserve-3d;
   z-index: 1 !important;
+  -webkit-transform: translate3d(0, 0, 0);
 }
 
 .slot {
@@ -78,6 +81,7 @@ body {
   -moz-backface-visibility: hidden;
   backface-visibility: hidden;
   z-index: 1 !important;
+  -webkit-transform: translate3d(0, 0, 0);
 }
 
 .backface-on {
@@ -287,6 +291,7 @@ label {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   z-index: 9999;
+  -webkit-transform: translate3d(0, 0, 0);
 }
 
 .modal-1 {
@@ -332,6 +337,7 @@ label {
   font-family: "Roboto";
   font-weight: 700;
   z-index: 8;
+  -webkit-transform: translate3d(0, 0, 0);
 }
 
 #spinRemain {
@@ -343,6 +349,7 @@ label {
   font-family: "Roboto";
   font-weight: 700;
   z-index: 8;
+  -webkit-transform: translate3d(0, 0, 0);
 }
 
 .go {
@@ -363,14 +370,15 @@ label {
   background-size: 100%;
   background-repeat: no-repeat;
   position: absolute;
-  top: 852px;
+  top: 715px;
   left: 411px;
   border-radius: 5px;
   overflow: hidden;
   display: inline-block;
   transition: all 0.2s ease;
   border-radius: 50%;
-  z-index: 999999999 !important;
+  z-index: 9;
+  -webkit-transform: translate3d(0, 0, 0);
 }
 
 .test-shine:after {
@@ -425,6 +433,7 @@ label {
   top: 0;
   left: 0;
   z-index: 1;
+  -webkit-transform: translate3d(0, 0, 0);
 }
 
 .payments {
@@ -448,6 +457,8 @@ label {
 video {
   width: 100%;
   max-height: 100%;
+  z-index: 9999999;
+  -webkit-transform: translate3d(0, 0, 0);
 }
 
 /* button play style */
@@ -513,21 +524,23 @@ video {
     font-size: 1.5rem;
     position: absolute;
     top: 759px;
-    left: 805px;
+    left: 705px;
     font-family: "Roboto";
     font-weight: 700;
     z-index: 8;
+    -webkit-transform: translate3d(0, 0, 0);
   }
 
   #spinRemain {
     color: #d18e2c;
     font-size: 1.5rem;
     position: absolute;
-    top: 859px;
+    top: 759px;
     left: 122px;
     font-family: "Roboto";
     font-weight: 700;
     z-index: 8;
+    -webkit-transform: translate3d(0, 0, 0);
   }
 }
 
