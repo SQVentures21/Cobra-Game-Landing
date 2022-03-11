@@ -50,7 +50,7 @@ body {
   position: absolute;
   top: 7px;
   width: 1086px;
-  z-index: 999;
+  z-index: 99;
   max-width: 100vw;
   -webkit-transform: translate3d(0, 0, 0);
 }
