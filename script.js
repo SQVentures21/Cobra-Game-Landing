@@ -216,6 +216,20 @@ function muteAll() {
   }
 }
 
+function removeVideo() {
+  const video = document.querySelector("video");
+  const videoOn = document.querySelector(".skip-video-img-on");
+  const videoOff = document.querySelector(".skip-video-img-off");
+
+  if (!video.is(":visible")) {
+    videoOn.style.display = "none";
+    videoOff.style.display = "block";
+  } else {
+    videoOn.style.display = "block";
+    videoOff.style.display = "none";
+  }
+}
+
 window.onload = function () {
   document.getElementById("my_audio").play();
 };
